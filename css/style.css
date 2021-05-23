@@ -1,0 +1,158 @@
+.header{
+
+  background-image: url("../img/bg6.jpg");
+height:100vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.navbar {
+    font-weight: bold;
+   
+  }
+
+  .navbar a{
+   color: black;
+
+   
+  }
+  .navbar .hd{
+    color: black;
+    font-size: 30px;
+    color: #af1463;
+   }
+
+
+.fixed-top {
+   
+
+    animation: smoothScroll 1s forwards;
+  }
+  @keyframes smoothScroll {
+      0% {
+          transform: translateY(-40px);
+      }
+      100% {
+          transform: translateY(0px);
+      }
+  }
+
+
+
+  .features {
+    background-color: #f4f7f9;
+  }
+  
+  .owl-controls {
+    bottom: -45px;
+    margin-top: 10px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .owl-controls .owl-page {
+    display: inline-block;
+  }
+  
+  .owl-controls .owl-page span {
+    border: 1px solid #C7CED3;
+    border-radius: 20px;
+    display: block;
+    height: 8px;
+    margin: 5px 4px;
+    width: 8px;
+  }
+  
+  .owl-controls .owl-page.active span {
+    background: #062033;
+    border: 0;
+  }
+  
+  .service-icon {
+    border: 1px solid #af1463;
+    border-radius: 50%;
+    color: #af1463;
+    float: left;
+    padding: 10px 13px;
+  }
+  
+  .service-desc {
+  
+    position: relative;
+    top: 5px;
+  }
+  
+  .service-desc h3 {
+    color: #062033;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+  .mb50 {
+    margin-bottom: 50px;
+  }  
+
+  .mt50 {
+    margin-top: 50px;
+  } 
+  .sec-title h2 {
+    color: #af1463;
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  
+  .service-desc {
+ 
+    position: relative;
+    top: 5px;
+  }
+  
+  .service-desc h3 {
+    color: #062033;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+
+  .footer {
+    background-color: #d1609a;
+    color: black;
+  }
+
+  .footer i{
+   
+    color: black;
+  }
+
+.bg-vlox{
+    background-color:#2d3e50;
+}
+ 
+  .carousel-item {
+    height: 600px;
+  }
+
+  .carousel-item img {
+    height: 600px;
+  }
+
+
+
+
+  @media only screen and (max-width: 600px) {
+    .header{
+
+height: 50vh;
+
+background-image: url("../img/bg6c.jpg");
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+    }
+    
+  }
