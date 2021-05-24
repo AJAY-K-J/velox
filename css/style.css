@@ -77,11 +77,18 @@ background-size: cover;
     float: left;
     padding: 10px 13px;
   }
-  
+
+
+.service-desc img{
+  padding-bottom: 18px;
+}
   .service-desc {
   
     position: relative;
     top: 5px;
+
+  border: 1px solid green;
+
   }
   
   .service-desc h3 {
@@ -89,6 +96,7 @@ background-size: cover;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 25px;
+
   }
   .mb50 {
     margin-bottom: 50px;
@@ -104,19 +112,8 @@ background-size: cover;
     text-transform: uppercase;
   }
   
-  .service-desc {
- 
-    position: relative;
-    top: 5px;
-  }
-  
-  .service-desc h3 {
-    color: #062033;
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 25px;
-  }
 
+ 
   .footer {
     background-color: #d1609a;
     color: black;
