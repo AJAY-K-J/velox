@@ -178,4 +178,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .navbar .hd{
+    color: #934731;
+  }
 }
