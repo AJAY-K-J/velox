@@ -259,6 +259,20 @@
           $(".navbar").removeClass("fixed-top bg-vlox");
         }
       });
+
+      $(".custom-toggler").click(function () {
+        $(".navbar").toggleClass(" bg-vlox2");
+        $(".navbar").toggleClass(" ");
+      });
+
+
+      $(".hv").click(function () {
+        $(".custom-toggler").attr("aria-expanded", "false");
+        $("#navbarTogglerDemo02").removeClass("show");
+      });
+
+
+
     </script>
   </body>
 </html>

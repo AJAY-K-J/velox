@@ -148,6 +148,12 @@ body {
   transform: scale(1.05);
 }
 
+iframe:hover {
+
+  transform: scale(1.01);
+}
+
+
 .footer i {
   color: black;
 }
@@ -181,4 +187,18 @@ body {
   .navbar .hd{
     color: #934731;
   }
+  .navbar-dark .navbar-nav .active .nav-link {
+    color: #934731;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #934731;
+  }
+  .navbar a {
+    color: #934731;
+}
+
+.bg-vlox2{
+  background-color: #a3a4a9;
+}
 }
